@@ -42,9 +42,10 @@ The goals / steps of this project are the following:
 
 My project includes the following files:
 * model.py containing the script to create and train the model
-* drive.py for driving the car in autonomous mode ( added one line for the conversion from RGB to BGR )
+* [drive.py](https://github.com/chaidamu519/Udacity_SDC_NanoDegree_Term1_Project3/blob/master/drive.py) for driving the car in autonomous mode ( added one line for the conversion from RGB to BGR )
 * model.h5 containing a trained convolution neural network 
-* writeup_report.md or writeup_report.pdf summarizing the results
+* REA.md or writeup_report.pdf summarizing the results
+* The documents in the folder [Model 1](https://github.com/chaidamu519/Udacity_SDC_NanoDegree_Term1_Project3/tree/master/Model%201) are the results obtained without data augmentation.
 
 
 ### Model Architecture and Training Strategy
