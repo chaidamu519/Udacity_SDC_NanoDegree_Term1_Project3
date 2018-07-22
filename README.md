@@ -81,9 +81,8 @@ Training data was chosen to keep the vehicle driving on the road.
 * Counter Clockwise: center lane driving (2 laps), recovering from the left and right sides of the road (2 laps), focusing on driving  around curves (2 laps).
 
 The data distribution is shown as the following:
-[image1]: ./master/Model1/distribution.png
-
-
+[image1]: ./master/Model 1/distribution.png
+![alt text] 
 
 #### 2. Training Data
 
