@@ -72,7 +72,7 @@ The data distribution is shown as the following:
 
 Since the dataset is extremely large. I use a python generator to perform real-time data augmentation instead of storing the preprocessed data in memory all at once.
 
-#### 4. Model Architecture
+### 4. Model Architecture
 
 * I followed directly the CNN architecture used by [NVIDIA](https://arxiv.org/pdf/1604.07316.pdf) in their paper and after training the car can stay on the track without data augmentation. 
 ![alt text](https://github.com/chaidamu519/Udacity_SDC_NanoDegree_Term1_Project3/blob/master/Model%201/Screen%20Shot%202018-07-22%20at%205.11.23%20PM.png)
@@ -85,7 +85,7 @@ Since the dataset is extremely large. I use a python generator to perform real-t
 
 * Mean Squared Error loss was used as the loss metrics for traning and validation dataset.
 
-#### 5. Test in simulator
+### 5. Test in simulator
 
 Since the cropping and normalization are performed in the keras model. Only one line of code wass added in [drive.py](https://github.com/chaidamu519/Udacity_SDC_NanoDegree_Term1_Project3/blob/master/drive.py)
 
