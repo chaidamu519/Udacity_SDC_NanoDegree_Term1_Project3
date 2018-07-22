@@ -54,8 +54,6 @@ The data distribution is shown as the following:
 
 * Image cropping and normalization are performed in Keras model
 
-* Brightness variation.
-    The brightness of the image is varied between 0.5 and 1.5 times of the original HLS to simulate different conditions
 
 * Image Horizontal Flipping. The steering angles are flipped as well.
    ###### Center Camera
