@@ -74,14 +74,14 @@ The model.py file contains the code for training and saving the convolution neur
 
 #### 1. Training in the Simulator
 
-Training data was chosen to keep the vehicle driving on the road. 
+Learning strategy was chosen to keep the vehicle driving on the road and to balance the dataset between straight lines, curves, and recovery from side of the road.
 
 * Clockwise: center lane driving (2 laps), recovering from the left and right sides of the road (2 laps), focusing on driving  around curves (2 laps).
 
 * Counter Clockwise: center lane driving (2 laps), recovering from the left and right sides of the road (2 laps), focusing on driving  around curves (2 laps).
 
 The data distribution is shown as the following:
-![alt text](https://raw.githubusercontent.com/chaidamu519/Udacity_SDC_NanoDegree_Term1_Project2/master/data_set.png)
+![alt text](https://github.com/chaidamu519/Udacity_SDC_NanoDegree_Term1_Project3/blob/master/Model%201/distribution.png)
 
 #### 2. Training Data
 
@@ -92,6 +92,14 @@ I used the all the images obtained from center, left and right cameras. A correc
 * Brightness variation.
 
 * Image Horizontal Flipping. The steering angles are flipped as well.
+###### Center Camera
+![alt text](https://github.com/chaidamu519/Udacity_SDC_NanoDegree_Term1_Project3/blob/master/Image/Center_Flip_2.png)
+
+###### Left Camera
+![alt text](https://github.com/chaidamu519/Udacity_SDC_NanoDegree_Term1_Project3/blob/master/Image/Left_Flip_1.png)
+
+###### Right Camera
+![alt text](https://github.com/chaidamu519/Udacity_SDC_NanoDegree_Term1_Project3/blob/master/Image/Right_Flip_2.png)
 
 * Add shadows
 
@@ -141,26 +149,7 @@ Here is a visualization of the architecture (note: visualizing the architecture 
 
 #### 3. Creation of the Training Set & Training Process
 
-To capture good driving behavior, I first recorded two laps on track one using center lane driving. Here is an example image of center lane driving:
 
-![alt text][image2]
-
-I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to .... These images show what a recovery looks like starting from ... :
-
-![alt text][image3]
-![alt text][image4]
-![alt text][image5]
-
-Then I repeated this process on track two in order to get more data points.
-
-To augment the data sat, I also flipped images and angles thinking that this would ... For example, here is an image that has then been flipped:
-
-![alt text][image6]
-![alt text][image7]
-
-Etc ....
-
-After the collection process, I had X number of data points. I then preprocessed this data by ...
 
 
 I finally randomly shuffled the data set and put Y% of the data into a validation set. 
