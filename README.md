@@ -80,6 +80,11 @@ Training data was chosen to keep the vehicle driving on the road.
 
 * Counter Clockwise: center lane driving (2 laps), recovering from the left and right sides of the road (2 laps), focusing on driving  around curves (2 laps).
 
+The data distribution is shown as the following:
+[image1]: ./master/Model1/distribution.png
+
+
+
 #### 2. Training Data
 
 I used the all the images obtained from center, left and right cameras. A correction factor is added on the steering angles of the left and right cameras. The correction factor is tuned as a hyperparameter during training.
