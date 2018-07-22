@@ -12,12 +12,12 @@ samples.columns = ['Center_image', 'Left_image', 'Right_image', 'steering angle'
 samples = samples.drop(['Throttle', 'Break', 'Speed'], axis = 1)
 
 ## Correction factor for left and right images
-correction = 0.25
+correction = 0.2
 sample_center = samples.drop(['Left_image', 'Right_image'], axis = 1).rename(index=str, columns={"Center_image": "img_path", "steering angle": "angles"})
 sample_left = samples.drop(['Center_image', 'Right_image'], axis = 1).rename(index=str, columns={"Left_image": "img_path", "steering angle": "angles"})
 sample_right = samples.drop(['Center_image', 'Left_image'], axis = 1).rename(index=str, columns={"Right_image": "img_path", "steering angle": "angles"})
-sample_left['angles'] += 0.2
-sample_right['angles'] -= 0.2
+sample_left['angles'] += correction
+sample_right['angles'] -= correction
 data_set = pd.concat([sample_center, sample_left, sample_right], ignore_index=True)
 
 
