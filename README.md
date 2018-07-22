@@ -26,10 +26,11 @@ My project includes the following files:
 
 * [model.py](https://github.com/chaidamu519/Udacity_SDC_NanoDegree_Term1_Project3/blob/master/model.py) The script used to create and train the model.
 
+* [run3.mp4](https://github.com/chaidamu519/Udacity_SDC_NanoDegree_Term1_Project3/blob/master/run3.mp4) recorded video.
 
 * The documents in the folder [Model 1](https://github.com/chaidamu519/Udacity_SDC_NanoDegree_Term1_Project3/tree/master/Model%201) are the results obtained without data augmentation.
 
-* [run3.mp4](https://github.com/chaidamu519/Udacity_SDC_NanoDegree_Term1_Project3/blob/master/run3.mp4) recorded video.
+
 
 
 
