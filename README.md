@@ -83,7 +83,10 @@ Since the dataset is extremely large. I use a python generator to perform real-t
 
 * The model used an adam optimizer, so the learning rate was not tuned manually.
 
-* Mean Squared Error loss was used as the loss metrics for traning and validation dataset.
+* Mean Squared Error loss was used as the loss metrics for traning and validation dataset. For example:
+
+![alt text](https://github.com/chaidamu519/Udacity_SDC_NanoDegree_Term1_Project3/blob/master/Image/model2.png)
+
 
 ### 5. Test in simulator
 
